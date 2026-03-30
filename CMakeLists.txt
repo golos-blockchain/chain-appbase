@@ -15,7 +15,6 @@ LIST(APPEND BOOST_COMPONENTS thread
                              filesystem
                              chrono
                              program_options
-                             unit_test_framework
                              locale)
 
 FIND_PACKAGE(Boost 1.58 REQUIRED COMPONENTS ${BOOST_COMPONENTS})
